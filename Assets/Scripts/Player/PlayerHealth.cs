@@ -1,30 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxLives = 3;               // Maximum number of lives
-    public int currentLives;               // Current number of lives
-    public AudioClip damageSound;          // Sound clip to play when the player gets damaged
-    public AudioClip gameOverSound;        // Sound clip to play when the player loses all lives
+    public int maxLives = 3;                         // Maximum number of lives
+    public int currentLives;                         // Current number of lives
+    public AudioClip damageSound;                    // Sound clip to play when the player gets damaged
+    public AudioClip gameOverSound;                  // Sound clip to play when the player loses all lives
+    public GameObject healthImagePrefab;             // Prefab for the health image
+    public Transform healthImagesContainer;          // Parent transform for the health images
+    public float spacing = 10f;                       // Spacing between health images
+    public float damageCooldown = 1f;                 // Cooldown time between taking damage
+
     private AudioSource audioSource;
-    private Rigidbody2D rb;
-    private bool isAlive = true;           // Tracks if the player is alive or dead
+    private bool isAlive = true;                      // Tracks if the player is alive or dead
+    private bool canTakeDamage = true;                // Flag indicating if the player can take damage
     public GameOverMenu GameOverMenu;
 
-
-    void Awake()
+    private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
         currentLives = maxLives;
+        GenerateHealthImages();
+        UpdateHealthUI();
+    }
+
+    private void GenerateHealthImages()
+    {
+        for (int i = 0; i < maxLives; i++)
+        {
+            GameObject healthImage = Instantiate(healthImagePrefab, healthImagesContainer);
+            healthImage.transform.localPosition = new Vector3(i * spacing, 0f, 0f);
+        }
     }
 
     public void TakeDamage()
     {
-        if (!isAlive)
+        if (!isAlive || !canTakeDamage)
             return;
 
         currentLives--;
@@ -37,6 +49,18 @@ public class PlayerHealth : MonoBehaviour
             // Player is out of lives, trigger game over
             GameOver();
         }
+        else
+        {
+            UpdateHealthUI();
+        }
+
+        canTakeDamage = false;
+        Invoke(nameof(EnableDamage), damageCooldown);
+    }
+
+    private void EnableDamage()
+    {
+        canTakeDamage = true;
     }
 
     private void GameOver()
@@ -48,7 +72,16 @@ public class PlayerHealth : MonoBehaviour
         GameOverMenu.Setup();
         isAlive = false;
         Time.timeScale = 0;
+    }
+
+    private void UpdateHealthUI()
+    {
+        for (int i = 0; i < healthImagesContainer.childCount; i++)
+        {
+            GameObject healthImage = healthImagesContainer.GetChild(i).gameObject;
+            healthImage.SetActive(i < currentLives);
         }
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -58,5 +91,4 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage();
         }
     }
-
 }
