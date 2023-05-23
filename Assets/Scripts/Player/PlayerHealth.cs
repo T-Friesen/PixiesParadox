@@ -6,6 +6,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxLives = 3;                         // Maximum number of lives
     public int currentLives;                         // Current number of lives
     public AudioClip damageSound;                    // Sound clip to play when the player gets damaged
+    public AudioClip increaseHealthSound;                    // Sound clip to play when the player gets damaged
     public AudioClip gameOverSound;                  // Sound clip to play when the player loses all lives
     public GameObject healthImagePrefab;             // Prefab for the health image
     public Transform healthImagesContainer;          // Parent transform for the health images
@@ -57,6 +58,19 @@ public class PlayerHealth : MonoBehaviour
         canTakeDamage = false;
         Invoke(nameof(EnableDamage), damageCooldown);
     }
+
+public void AddHealth()
+{
+    currentLives++;
+
+    if (currentLives > maxLives)
+        currentLives = maxLives;
+
+    if (increaseHealthSound != null)
+        audioSource.PlayOneShot(increaseHealthSound);
+
+    UpdateHealthUI();
+}
 
     private void EnableDamage()
     {
