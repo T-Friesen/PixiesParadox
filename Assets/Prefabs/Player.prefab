@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6519985487651613211}
   - component: {fileID: 3947802567186421305}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 6718239975876917195}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7977031718737631311}
@@ -73,9 +73,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c47554c76fc78dc489aef0e2a1bb3b7d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -93,11 +93,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7977031718737631311}
-  - component: {fileID: 2599814753502695544}
   - component: {fileID: 4486709834664606325}
   - component: {fileID: 4607576924776864670}
   - component: {fileID: 3950149950728555521}
   - component: {fileID: 3397691502205435176}
+  - component: {fileID: 1809890917}
+  - component: {fileID: 1809890904}
+  - component: {fileID: 1809890911}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -121,22 +123,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &2599814753502695544
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8005669113514428460}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.25
 --- !u!50 &4486709834664606325
 Rigidbody2D:
   serializedVersion: 4
@@ -280,7 +266,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98983e3057b926641854060563cea210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxLives: 5
-  currentLives: 5
+  maxLives: 6
+  currentLives: 0
   damageSound: {fileID: 8300000, guid: afb5de20f57f3f3459247a6509aab451, type: 3}
+  increaseHealthSound: {fileID: 0}
   gameOverSound: {fileID: 8300000, guid: 08a5e043437487848be650c16e39e5b4, type: 3}
+  healthImagePrefab: {fileID: 7839084188137839798, guid: 6242b811447e07240af91cf57b290b11, type: 3}
+  healthImagesContainer: {fileID: 0}
+  spacing: 110
+  damageCooldown: 0.5
+  GameOverMenu: {fileID: 0}
+--- !u!61 &1809890917
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8005669113514428460}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.06737767, y: 0.004491806}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.41606036, y: 0.9910164}
+  m_EdgeRadius: 0
+--- !u!114 &1809890904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8005669113514428460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89b2403ffdf540c4bb894785a5461d1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upwardMovementDistance: 0
+  downwardMovementDistance: 0
+  lightEnvironment: {fileID: 0}
+  darkEnvironment: {fileID: 0}
+  cameraAudioSource: {fileID: 0}
+--- !u!114 &1809890911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8005669113514428460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05c82298dbb2704db81e78125faa166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 2457553024519400582, guid: 53d7301bfb66d6a449b8a5428759f300, type: 3}
+  projectileSpeed: 10

@@ -25,17 +25,27 @@ public class PixiePlayerController : MonoBehaviour
         isMoving = movement.magnitude > 0;
     }
 
-    void FixedUpdate()
+void FixedUpdate()
+{
+    if (isMoving)
     {
-        if (isMoving)
+        rb.AddForce(movement * speed);
+
+        // Flip the player on the x-axis if moving left
+        if (movement.x < 0)
         {
-            rb.AddForce(movement * speed);
+            transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         else
         {
-            // Gradually slow down the player's velocity
-            rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, slowdownRate * Time.fixedDeltaTime);
+            transform.localScale = new Vector3(1f, 1f, 1f);
         }
     }
+    else
+    {
+        // Gradually slow down the player's velocity
+        rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, slowdownRate * Time.fixedDeltaTime);
+    }
+}
 
 }
