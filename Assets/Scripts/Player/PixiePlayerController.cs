@@ -11,10 +11,12 @@ public class PixiePlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     private bool isMoving = false;
+    private Animator animator;               // Reference to the Animator component
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();   // Get the Animator component
     }
 
     void Update()
@@ -23,29 +25,31 @@ public class PixiePlayerController : MonoBehaviour
         float moveVertical = Input.GetAxis("Vertical");
         movement = new Vector2(moveHorizontal, moveVertical).normalized;
         isMoving = movement.magnitude > 0;
+
+        // Set the "isMoving" parameter in the Animator
+        animator.SetBool("isMoving", isMoving);
     }
 
-void FixedUpdate()
-{
-    if (isMoving)
+    void FixedUpdate()
     {
-        rb.AddForce(movement * speed);
-
-        // Flip the player on the x-axis if moving left
-        if (movement.x < 0)
+        if (isMoving)
         {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            rb.AddForce(movement * speed);
+
+            // Flip the player on the x-axis if moving left
+            if (movement.x < 0)
+            {
+                transform.localScale = new Vector3(-1f, 1f, 1f);
+            }
+            else
+            {
+                transform.localScale = new Vector3(1f, 1f, 1f);
+            }
         }
         else
         {
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            // Gradually slow down the player's velocity
+            rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, slowdownRate * Time.fixedDeltaTime);
         }
     }
-    else
-    {
-        // Gradually slow down the player's velocity
-        rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, slowdownRate * Time.fixedDeltaTime);
-    }
-}
-
 }
