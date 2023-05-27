@@ -105,4 +105,16 @@ public void AddHealth()
             TakeDamage();
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // Check if collided with an enemy
+        if (collision.CompareTag("Enemy"))
+        {
+            PlayerHealth playerHealth = GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage();
+            }
+        }
+    }
 }
