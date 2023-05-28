@@ -97,7 +97,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 2, y: 0, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 1312
@@ -119,7 +119,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 2, y: 0, z: 4, w: 0}
     rect:
       serializedVersion: 2
       x: 4
@@ -141,7 +141,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 2, y: 0, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 2620
@@ -163,7 +163,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 2, y: 0, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 1312
@@ -185,10 +185,10 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 3, y: 0, z: 1, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 3
       y: 1688
       width: 1300
       height: 683
@@ -207,7 +207,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 2, y: 0, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 2620
@@ -229,7 +229,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 2, y: 0, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 1312
@@ -251,7 +251,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 2, y: 0, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 4
@@ -273,7 +273,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 2, y: 0, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 2620
@@ -295,7 +295,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 2, y: 0, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 1312
@@ -317,7 +317,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 2, y: 0, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 4
