@@ -22,7 +22,7 @@ public class TeleportWorld : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire3"))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             if (!isMovingUp && !isMovingDown)
             {
