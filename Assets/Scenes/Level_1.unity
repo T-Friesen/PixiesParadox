@@ -2608,10 +2608,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1479159908}
+    - target: {fileID: 3874055556037605001, guid: 9a904aadd2a494149932584ea4557999, type: 3}
+      propertyPath: m_Name
+      value: MainMenuButton
+      objectReference: {fileID: 0}
     - target: {fileID: 3874055556053472683, guid: 9a904aadd2a494149932584ea4557999, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1479159908}
+    - target: {fileID: 3874055556053472685, guid: 9a904aadd2a494149932584ea4557999, type: 3}
+      propertyPath: m_Name
+      value: RestartButton
+      objectReference: {fileID: 0}
     - target: {fileID: 3874055556586245871, guid: 9a904aadd2a494149932584ea4557999, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
