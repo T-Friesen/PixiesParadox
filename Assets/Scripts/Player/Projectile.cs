@@ -30,17 +30,17 @@ public class Projectile : MonoBehaviour
             audioSource.PlayOneShot(fireSound);
     }
 
-    private void Update()
-    {
-        // Move the projectile in the set direction and speed
-        transform.Translate(direction * speed * Time.deltaTime);
+private void Update()
+{
+    // Move the projectile in the set direction and speed
+    transform.position += direction * speed * Time.deltaTime;
 
-        // Check if the projectile's lifespan has ended
-        if (Time.time >= destroyTime)
-        {
-            Destroy(gameObject);
-        }
+    // Check if the projectile's lifespan has ended
+    if (Time.time >= destroyTime)
+    {
+        Destroy(gameObject);
     }
+}
 
 private void OnTriggerEnter2D(Collider2D collision)
 {

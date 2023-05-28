@@ -93,29 +93,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Player Projectile and Dust
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 252
-      y: 4
-      width: 254
-      height: 262
-    spriteID: 1450db9f619a6f34f838b7057f01e76f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 69, y: -172}
-    spritePosition: {x: 0, y: 0}
-  - name: Lives
+  - name: Dust and Lives_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -126,7 +104,7 @@ ScriptedImporter:
       y: 4
       width: 240
       height: 295
-    spriteID: fb8f17115e44f1c4782c17bbbffa10ad
+    spriteID: 5dc39b4d1d83c934482bcb34b7bbd654
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -135,7 +113,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -178, y: -163}
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Dust and Lives_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 4
+      width: 254
+      height: 262
+    spriteID: 13db31fd7e6898049824cc3885b4d90a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 252, y: 4}
     spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
