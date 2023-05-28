@@ -9,11 +9,15 @@ public class FlyingEnemy : MonoBehaviour
 
     private int currentHealth;                       // Current health of the enemy
     private Transform player;                         // Reference to the player's transform
+    private Animator animator;                        // Animator component for animation
+    private Vector2 movementDirection;                // Direction of enemy movement
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         currentHealth = maxHealth;
+
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -21,8 +25,21 @@ public class FlyingEnemy : MonoBehaviour
         if (player != null)
         {
             // Move towards the player
-            Vector2 direction = player.position - transform.position;
-            transform.Translate(direction.normalized * moveSpeed * Time.deltaTime);
+            movementDirection = (player.position - transform.position).normalized;
+            transform.Translate(movementDirection * moveSpeed * Time.deltaTime);
+        }
+
+        // Set animation parameters
+        animator.SetBool("IsMoving", movementDirection.magnitude > 0);
+
+        // Flip the object on the x-axis based on movement direction
+        if (movementDirection.x > 0)
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }
+        else if (movementDirection.x < 0)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
         }
     }
 
