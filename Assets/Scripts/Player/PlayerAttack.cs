@@ -24,16 +24,25 @@ public class PlayerAttack : MonoBehaviour
 
     private void SpawnProjectile()
     {
-        // Get the mouse position in world space
-        Vector3 mousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-        mousePosition.z = 0f;
+        // Raycast from the camera to the mouse position to get the world position
+        Ray mouseRay = mainCamera.ScreenPointToRay(Input.mousePosition);
+        Plane groundPlane = new Plane(Vector3.back, Vector3.zero);
+        float rayDistance;
+        Vector3 mousePositionWorld = Vector3.zero;
 
-        // Calculate the direction from player to mouse position
-        Vector3 direction = mousePosition - transform.position;
+        if (groundPlane.Raycast(mouseRay, out rayDistance))
+        {
+            mousePositionWorld = mouseRay.GetPoint(rayDistance);
+        }
+
+        // Calculate the direction from the player to the mouse position
+        Vector3 direction = mousePositionWorld - transform.position;
         direction.Normalize();
 
-        // Instantiate the projectile and set its direction and speed
+        // Instantiate the projectile and set its position and rotation
         GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+
+        // Set the projectile's direction and speed
         Projectile projectileComponent = projectile.GetComponent<Projectile>();
         if (projectileComponent != null)
         {
