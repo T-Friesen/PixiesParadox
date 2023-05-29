@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: 1fdf8fb2626ff0e428c356ddd64e0bec
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: 'dark Land end 1 '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 481
+      width: 194
+      height: 205
+    spriteID: 612c9162cd0463d40ae022ed857a9040
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -227, y: 289}
+    spritePosition: {x: 0, y: 0}
+  - name: 'dark Land End 2 '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 481
+      width: 182
+      height: 201
+    spriteID: bdb12d2a0065a2642bdff5bb3d2a8e61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -501, y: 285}
+    spritePosition: {x: 0, y: 0}
+  - name: 'dark Land center 1 '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 255
+      width: 361
+      height: 218
+    spriteID: a6a64399a1e6c8d498dd37100c774b4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 255}
+    spritePosition: {x: 374, y: 188}
+  - name: 'Dark Land Center 2 '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 255
+      width: 331
+      height: 198
+    spriteID: 03d7c3b7f16997c4a959cf979b3ddda4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -362, y: 63}
+    spritePosition: {x: 0, y: 0}
+  - name: Light Land end 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 712
+      y: 255
+      width: 203
+      height: 206
+    spriteID: d652eb05704c94a48887de5d35afe220
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 490, y: 63}
+    spritePosition: {x: 0, y: 0}
+  - name: Light Land End 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 753
+      y: 4
+      width: 201
+      height: 213
+    spriteID: 9f5c3ce242dfeea42b135c390dd607ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 53, y: -192}
+    spritePosition: {x: 0, y: 0}
+  - name: Light Land center 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 369
+      y: 4
+      width: 376
+      height: 227
+    spriteID: 8586540bd505c4d4280890d1ae1603f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 369, y: 4}
+    spritePosition: {x: 360, y: 188}
+  - name: Light Land Center 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 357
+      height: 243
+    spriteID: 16b923cc8f5212643be14652dee178e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -731, y: -188}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: 'dark Land end 1 '
+    spriteName: 'dark Land end 1 '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 612c9162cd0463d40ae022ed857a9040
+    layerID: 23
+    mosaicPosition: {x: 4, y: 481}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 'dark Land End 2 '
+    spriteName: 'dark Land End 2 '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bdb12d2a0065a2642bdff5bb3d2a8e61
+    layerID: 22
+    mosaicPosition: {x: 206, y: 481}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 'dark Land center 1 '
+    spriteName: 'dark Land center 1 '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a6a64399a1e6c8d498dd37100c774b4e
+    layerID: 21
+    mosaicPosition: {x: 4, y: 255}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 'Dark Land Center 2 '
+    spriteName: 'Dark Land Center 2 '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 03d7c3b7f16997c4a959cf979b3ddda4
+    layerID: 20
+    mosaicPosition: {x: 373, y: 255}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Light Land end 1
+    spriteName: Light Land end 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d652eb05704c94a48887de5d35afe220
+    layerID: 19
+    mosaicPosition: {x: 712, y: 255}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Light Land End 2
+    spriteName: Light Land End 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9f5c3ce242dfeea42b135c390dd607ca
+    layerID: 18
+    mosaicPosition: {x: 753, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Light Land center 1
+    spriteName: Light Land center 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8586540bd505c4d4280890d1ae1603f2
+    layerID: 17
+    mosaicPosition: {x: 369, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Light Land Center 2
+    spriteName: Light Land Center 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 16b923cc8f5212643be14652dee178e6
+    layerID: 16
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
