@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: f647f88999ffb1d47883e389f124d57f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: dark realm foreground tree trunks and bush
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4483
+      y: 4
+      width: 3479
+      height: 963
+    spriteID: 6043eafde87ba1a4bae50a61f28af03c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3628, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Closest Dark Realm Treeline
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1946
+      width: 4469
+      height: 963
+    spriteID: a35631bd0666a9240927cdf1a279972b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -20, y: 1946}
+    spritePosition: {x: 0, y: 0}
+  - name: further Dark Realm Treeline
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 4471
+      height: 963
+    spriteID: 29428f4738a422c429b7fc28ab955098
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -14, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: dark realm forest darkness
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3888
+      width: 4500
+      height: 482
+    spriteID: 6920cab70c1bde746942383d9e066b17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 3888}
+    spritePosition: {x: 0, y: 0}
+  - name: Light realm foreground tree trunks and bush
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4483
+      y: 975
+      width: 3479
+      height: 963
+    spriteID: dc47dc466eab16a4cbeceb8ddc5c2c0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3628, y: 975}
+    spritePosition: {x: 0, y: 0}
+  - name: Closest Light Realm Treeline
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2917
+      width: 4469
+      height: 963
+    spriteID: a4b448b03e3b7a04c9e10cb2a80b2ddd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -20, y: 2917}
+    spritePosition: {x: 0, y: 0}
+  - name: Further Light Realm Treeline
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 975
+      width: 4471
+      height: 963
+    spriteID: 2de532d58208edc41a03c4c69c0bf983
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -14, y: 975}
+    spritePosition: {x: 0, y: 0}
+  - name: light realm forest darkness
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4378
+      width: 4500
+      height: 482
+    spriteID: 25e885f5a0a88924c99b975ef8f065ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4378}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: dark realm foreground tree trunks and bush
+    spriteName: dark realm foreground tree trunks and bush
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6043eafde87ba1a4bae50a61f28af03c
+    layerID: 22
+    mosaicPosition: {x: 4483, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Closest Dark Realm Treeline
+    spriteName: Closest Dark Realm Treeline
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a35631bd0666a9240927cdf1a279972b
+    layerID: 18
+    mosaicPosition: {x: 4, y: 1946}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: further Dark Realm Treeline
+    spriteName: further Dark Realm Treeline
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 29428f4738a422c429b7fc28ab955098
+    layerID: 15
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dark realm forest darkness
+    spriteName: dark realm forest darkness
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6920cab70c1bde746942383d9e066b17
+    layerID: 13
+    mosaicPosition: {x: 4, y: 3888}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Light realm foreground tree trunks and bush
+    spriteName: Light realm foreground tree trunks and bush
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dc47dc466eab16a4cbeceb8ddc5c2c0f
+    layerID: 23
+    mosaicPosition: {x: 4483, y: 975}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Closest Light Realm Treeline
+    spriteName: Closest Light Realm Treeline
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a4b448b03e3b7a04c9e10cb2a80b2ddd
+    layerID: 9
+    mosaicPosition: {x: 4, y: 2917}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Further Light Realm Treeline
+    spriteName: Further Light Realm Treeline
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2de532d58208edc41a03c4c69c0bf983
+    layerID: 6
+    mosaicPosition: {x: 4, y: 975}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: light realm forest darkness
+    spriteName: light realm forest darkness
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 25e885f5a0a88924c99b975ef8f065ed
+    layerID: 4
+    mosaicPosition: {x: 4, y: 4378}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
