@@ -6,11 +6,14 @@ public class FlyingEnemy : MonoBehaviour
 {
     public float moveSpeed = 5f;                     // Speed at which the enemy moves
     public int maxHealth = 5;                        // Maximum health of the enemy
+    public AudioClip deathSound;                     // Sound clip to play when the enemy dies
+    public float deathSoundVolume = 1f;              // Volume of the death sound
 
     private int currentHealth;                       // Current health of the enemy
     private Transform player;                         // Reference to the player's transform
     private Animator animator;                        // Animator component for animation
     private Vector2 movementDirection;                // Direction of enemy movement
+    private AudioSource audioSource;                  // Reference to the AudioSource component
 
     private void Start()
     {
@@ -18,6 +21,7 @@ public class FlyingEnemy : MonoBehaviour
         currentHealth = maxHealth;
 
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -50,7 +54,19 @@ public class FlyingEnemy : MonoBehaviour
         if (currentHealth <= 0)
         {
             // Enemy is defeated
-            Destroy(gameObject);
+            StartCoroutine(PlayDeathSoundAndDestroy());
         }
+    }
+
+    private IEnumerator PlayDeathSoundAndDestroy()
+    {
+        if (deathSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(deathSound, deathSoundVolume);
+            yield return new WaitForSeconds(deathSound.length); // Wait for the sound to finish playing
+        }
+
+        // Destroy the enemy object
+        Destroy(gameObject);
     }
 }
