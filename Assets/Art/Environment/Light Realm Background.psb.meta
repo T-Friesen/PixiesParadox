@@ -317,13 +317,13 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 2, y: 2, z: 2, w: 0}
+    border: {x: 3, y: 3, z: 3, w: 4}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
       width: 1300
-      height: 855
+      height: 864
     spriteID: 4912d7f21f090e348b15b986324d3a23
     spriteBone: []
     spriteOutline: []
