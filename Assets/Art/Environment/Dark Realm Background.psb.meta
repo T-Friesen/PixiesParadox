@@ -141,7 +141,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 2, y: 0, z: 2, w: 0}
+    border: {x: 2, y: 5, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 2620
@@ -163,7 +163,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 2, y: 0, z: 2, w: 0}
+    border: {x: 2, y: 8, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 1312
@@ -185,7 +185,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 3, y: 0, z: 1, w: 0}
+    border: {x: 3, y: 2, z: 1, w: 0}
     rect:
       serializedVersion: 2
       x: 3
@@ -207,7 +207,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 2, y: 0, z: 2, w: 0}
+    border: {x: 2, y: 5, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 2620
@@ -229,7 +229,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 2, y: 0, z: 2, w: 0}
+    border: {x: 2, y: 4, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 1312
@@ -251,7 +251,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 2, y: 0, z: 2, w: 0}
+    border: {x: 2, y: 2, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 4
@@ -273,11 +273,11 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 2, y: 0, z: 2, w: 0}
+    border: {x: 2, y: 5, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 2620
-      y: 4
+      y: 3
       width: 1300
       height: 825
     spriteID: 53283da728a13bf47bcada0abb053b8e
@@ -295,7 +295,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 2, y: 0, z: 2, w: 0}
+    border: {x: 2, y: 4, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 1312
@@ -317,7 +317,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 2, y: 0, z: 2, w: 0}
+    border: {x: 3, y: 3, z: 3, w: 4}
     rect:
       serializedVersion: 2
       x: 4

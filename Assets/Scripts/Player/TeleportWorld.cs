@@ -107,4 +107,9 @@ public class TeleportWorld : MonoBehaviour
         // Update the world state
         isLightWorld = !isLightWorld;
     }
+
+    public bool IsDarkWorld()
+    {
+        return !isLightWorld;
+    }
 }

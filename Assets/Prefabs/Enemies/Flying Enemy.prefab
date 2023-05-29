@@ -4863,9 +4863,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  maxHealth: 5
+  maxHealth: 1
   deathSound: {fileID: 8300000, guid: 85098fea1e5d1054d84a89dedcc8cad2, type: 3}
   deathSoundVolume: 3.77
+  healthPickupPrefab: {fileID: 3894311675148980828, guid: b0624244c69ef8e4fa2646a7bcd61617, type: 3}
+  healthPickupChance: 0.5
 --- !u!60 &8339253401928672824
 PolygonCollider2D:
   m_ObjectHideFlags: 0
