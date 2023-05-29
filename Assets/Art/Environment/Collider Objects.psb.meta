@@ -93,18 +93,18 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: 'dark Land end 1 '
+  - name: Collider Objects_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 5
       y: 481
-      width: 194
+      width: 193
       height: 205
-    spriteID: 612c9162cd0463d40ae022ed857a9040
+    spriteID: 8bcdedcae686d8d4680c7e78097eb547
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -113,9 +113,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -227, y: 289}
+    uvTransform: {x: 5, y: 481}
     spritePosition: {x: 0, y: 0}
-  - name: 'dark Land End 2 '
+  - name: Collider Objects_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -126,7 +126,7 @@ ScriptedImporter:
       y: 481
       width: 182
       height: 201
-    spriteID: bdb12d2a0065a2642bdff5bb3d2a8e61
+    spriteID: 92e8c834772837c4fba24cf8623c7b9a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -135,9 +135,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -501, y: 285}
+    uvTransform: {x: 206, y: 481}
     spritePosition: {x: 0, y: 0}
-  - name: 'dark Land center 1 '
+  - name: Collider Objects_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -148,7 +148,7 @@ ScriptedImporter:
       y: 255
       width: 361
       height: 218
-    spriteID: a6a64399a1e6c8d498dd37100c774b4e
+    spriteID: 4e1bd075421dabe4badfcaa4d69e7892
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -158,8 +158,8 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 255}
-    spritePosition: {x: 374, y: 188}
-  - name: 'Dark Land Center 2 '
+    spritePosition: {x: 0, y: 0}
+  - name: Collider Objects_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 255
       width: 331
       height: 198
-    spriteID: 03d7c3b7f16997c4a959cf979b3ddda4
+    spriteID: 67022360cef58e54d96a07c2ba3d9731
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,9 +179,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -362, y: 63}
+    uvTransform: {x: 373, y: 255}
     spritePosition: {x: 0, y: 0}
-  - name: Light Land end 1
+  - name: Collider Objects_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -190,9 +190,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 712
       y: 255
-      width: 203
+      width: 202
       height: 206
-    spriteID: d652eb05704c94a48887de5d35afe220
+    spriteID: 73ed8d11e5dd7744eb3ceaf9705ce1fb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,53 +201,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 490, y: 63}
+    uvTransform: {x: 712, y: 255}
     spritePosition: {x: 0, y: 0}
-  - name: Light Land End 2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 753
-      y: 4
-      width: 201
-      height: 213
-    spriteID: 9f5c3ce242dfeea42b135c390dd607ca
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 53, y: -192}
-    spritePosition: {x: 0, y: 0}
-  - name: Light Land center 1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 369
-      y: 4
-      width: 376
-      height: 227
-    spriteID: 8586540bd505c4d4280890d1ae1603f2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 369, y: 4}
-    spritePosition: {x: 360, y: 188}
-  - name: Light Land Center 2
+  - name: Collider Objects_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -258,7 +214,7 @@ ScriptedImporter:
       y: 4
       width: 357
       height: 243
-    spriteID: 16b923cc8f5212643be14652dee178e6
+    spriteID: efbbc54757462c04392ff51eb20755a6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -267,7 +223,51 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -731, y: -188}
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Collider Objects_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 369
+      y: 4
+      width: 376
+      height: 227
+    spriteID: 9bd339115ec55354dbccd0537a4d3ad8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 369, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Collider Objects_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 754
+      y: 4
+      width: 200
+      height: 213
+    spriteID: 7f91069f333cd3f48ae516f661f81850
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 754, y: 4}
     spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
